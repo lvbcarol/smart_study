@@ -1,0 +1,342 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #2d1b53;
+    color: #fff;
+}
+
+.logo {
+    width: 150px;
+    height: auto;
+}
+
+h1, h2 {
+    font-weight: bold;
+}
+
+button {
+    border-radius: 5px;
+}
+
+.bg-primary {
+    background-color: #2d1b53 !important;
+}
+
+.btn-primary {
+    background: linear-gradient(to right, #005eff, #a600ff);
+    border: none;
+}
+
+.btn-primary:hover {
+    opacity: 0.9;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #2d1b53;
+    color: #fff;
+}
+
+h1, h2 {
+    font-weight: bold;
+}
+
+.navbar-brand img {
+    max-width: 30px;
+    margin-right: 8px;
+}
+
+button {
+    border-radius: 5px;
+}
+
+.bg-primary {
+    background-color: #2d1b53 !important;
+}
+
+.btn-light {
+    background: linear-gradient(to right, #ffffff, #eeeeee);
+    color: #2d1b53;
+}
+
+.btn-light:hover {
+    background: linear-gradient(to right, #f0f0f0, #e0e0e0);
+    color: #000;
+}
+/* Estilo para #studysmart */
+.badge {
+    font-size: 1.5rem; /* Texto maior */
+    padding: 10px 15px; /* Aumenta o tamanho do fundo */
+}
+
+/* Estilo para os livros */
+img[src="books.png"] {
+    max-width: 120px; /* Tornar os livros maiores */
+}
+
+/* Estilo para a imagem do computador */
+img[src="laptop-image.jpg"] {
+    max-width: 80%; /* Reduz a largura */
+    display: block;
+    margin: auto;
+}
+/* Estilo para os cartões dos notebooks */
+.notebook-card {
+    background-color: #2a184e; /* Cor de fundo roxa */
+    border-radius: 15px; /* Bordas arredondadas */
+    position: relative;
+    overflow: hidden;
+    height: 300px; /* Altura consistente */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.notebook-card::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 15px;
+    height: 100%;
+    background-color: #fff; /* Cor do espiral */
+    border-radius: 0 10px 10px 0;
+    z-index: 1;
+}
+
+.notebook-card h2 {
+    font-size: 2.5rem; /* Tamanho do título */
+}
+
+.notebook-card p {
+    font-size: 1rem;
+    color: #ddd;
+}
+
+/* Botão gradiente */
+.btn-primary-gradient {
+    background: linear-gradient(90deg, #3b82f6, #9333ea);
+    color: #fff;
+    border: none;
+    border-radius: 50px;
+    transition: all 0.3s ease;
+}
+
+.btn-primary-gradient:hover {
+    opacity: 0.9;
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+    .notebook-card {
+        height: auto;
+    }
+
+    .notebook-card h2 {
+        font-size: 2rem;
+    }
+}
+/* Página Classes */
+
+/* Fundo */
+body {
+    background-color: #1e0b3c; /* Cor de fundo roxa */
+}
+
+/* Botões de Classe */
+.btn-class-option {
+    background-color: #6b3fc7; /* Cor do botão */
+    color: #fff;
+    border: none;
+    font-size: 1.25rem; /* Tamanho da fonte */
+    border-radius: 50px; /* Bordas arredondadas */
+    padding: 10px 20px;
+    transition: all 0.3s ease;
+}
+
+.btn-class-option:hover {
+    background-color: #8256d0; /* Cor ao passar o mouse */
+    transform: scale(1.05);
+}
+
+/* Título e Ícone */
+h1 {
+    font-size: 2.5rem; /* Tamanho do título */
+}
+
+img {
+    filter: drop-shadow(0 0 5px rgba(0, 0, 0, 0.5)); /* Sombra no ícone */
+}
+/* Página Classes */
+
+/* Fundo */
+body {
+    background-color: #1e0b3c; /* Cor de fundo roxa */
+}
+
+/* Botões de Classe */
+.btn-class-option {
+    background-color: #6b3fc7; /* Cor do botão */
+    color: #fff;
+    border: none;
+    font-size: 1.25rem; /* Tamanho da fonte */
+    border-radius: 50px; /* Bordas arredondadas */
+    padding: 10px 20px;
+    transition: all 0.3s ease;
+}
+
+.btn-class-option:hover {
+    background-color: #8256d0; /* Cor ao passar o mouse */
+    transform: scale(1.05);
+}
+
+/* Título e Ícone */
+h1 {
+    font-size: 2.5rem; /* Tamanho do título */
+    text-shadow: 0 0 5px rgba(0, 0, 0, 0.5); /* Sombra no texto */
+}
+
+img {
+    filter: drop-shadow(0 0 5px rgba(0, 0, 0, 0.5)); /* Sombra no ícone */
+}
+
+/* Responsividade */
+@media (max-width: 576px) {
+    h1 {
+        font-size: 2rem;
+    }
+
+    .btn-class-option {
+        font-size: 1rem;
+        padding: 8px 15px;
+    }
+}
+/* Página Subjects */
+
+/* Fundo */
+body {
+    background-color: #1e0b3c; /* Cor de fundo roxa */
+}
+
+/* Título */
+h1 {
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+/* Cartões */
+.card {
+    border: none;
+    background-color: #2a1254; /* Fundo roxo escuro */
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.5);
+}
+
+.card .badge {
+    font-size: 1rem;
+    padding: 0.5em 1em;
+    border-radius: 20px;
+}
+
+/* Botão Go Back */
+.btn-light {
+    font-size: 1.2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.btn-light:hover {
+    background-color: #f0f0f0;
+    color: #000;
+}
+
+/* Responsividade */
+@media (max-width: 576px) {
+    h1 {
+        font-size: 1.8rem;
+    }
+
+    .card .card-title {
+        font-size: 1.5rem;
+    }
+
+    .btn-light {
+        font-size: 1rem;
+    }
+}
+/* Página Subjects */
+
+/* Fundo */
+body {
+    background-color: #1e0b3c; /* Cor de fundo roxa */
+}
+
+/* Navbar */
+nav {
+    margin-bottom: 50px; /* Coloca o header mais para baixo */
+}
+
+/* Título */
+h1 {
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+/* Cartões */
+.card {
+    border: none;
+    background-color: #2a1254; /* Fundo roxo escuro */
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.5);
+}
+
+.card .badge {
+    font-size: 1rem;
+    padding: 0.5em 1em;
+    border-radius: 20px;
+}
+
+.wider-card {
+    width: 100%; /* Aumenta a largura dos cards */
+    max-width: 400px; /* Limita o tamanho máximo dos cards */
+}
+
+/* Botão Go Back */
+.btn-light {
+    font-size: 1.2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.btn-light:hover {
+    background-color: #f0f0f0;
+    color: #000;
+}
+
+/* Responsividade */
+@media (max-width: 576px) {
+    h1 {
+        font-size: 1.8rem;
+    }
+
+    .card .card-title {
+        font-size: 1.5rem;
+    }
+
+    .btn-light {
+        font-size: 1rem;
+    }
+}
