@@ -1,7 +1,7 @@
-import express, { Request, Response } from 'express';
+import { Router, Request, Response } from 'express';
 import Usuario from '../models/Usuario';
 
-const router = express.Router();
+const router = Router();
 
 router.post('/cadastro', async (req: Request, res: Response) => {
   const { nomeCompleto, email, senha, confirmarSenha } = req.body;
