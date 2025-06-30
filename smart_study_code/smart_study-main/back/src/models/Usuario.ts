@@ -1,3 +1,4 @@
+// src/models/Usuario.ts
 import mongoose, { Document, Schema, Model } from 'mongoose';
 
 export interface IUsuario extends Document {
@@ -6,11 +7,13 @@ export interface IUsuario extends Document {
   senha: string;
 }
 
-const UsuarioSchema: Schema<IUsuario> = new Schema({
+const UsuarioSchema: Schema = new Schema<IUsuario>({
   nomeCompleto: { type: String, required: true },
   email:        { type: String, required: true, unique: true },
   senha:        { type: String, required: true }
-}, { timestamps: true });
+}, {
+  timestamps: true
+});
 
 const Usuario: Model<IUsuario> = mongoose.model<IUsuario>('Usuario', UsuarioSchema);
 

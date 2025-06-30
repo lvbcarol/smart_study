@@ -7,7 +7,7 @@ const app = express();
 app.use(cors());
 app.use(express.json());
 
-mongoose.connect('mongodb+srv://24004308:0TheFlash1@cluster0.ukgdnyc.mongodb.net/smart_study?retryWrites=true&w=majority')
+mongoose.connect(' mongodb+srv://carol:12ZO2LVlrVXLWul6@cluster0.e6p1rlj.mongodb.net/smart-study?retryWrites=true&w=majority&appName=Cluster0')
   .then(() => console.log('🟢 MongoDB conectado'))
   .catch((err) => console.error('🔴 Erro MongoDB:', err));
 
